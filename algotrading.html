@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Algotrading – FinModel+Algo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="logo">FinModel+Algo</div>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <nav class="site-nav">
+        <ul>
+          <li><a href="index.html">Strona Główna</a></li>
+          <li><a href="modelowanie.html">Modelowanie Finansowe</a></li>
+          <li><a href="algotrading.html" class="active">Algotrading</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="algotrading">
+      <h1>Algotrading</h1>
+
+      <article>
+        <h2>Podstawy algotradingu</h2>
+        <p>
+          Automatyzacja transakcji przy użyciu reguł opartych na danych
+          rynkowych. Kluczowe elementy:
+        </p>
+        <ul>
+          <li>Źródła danych (API, tick-by-tick, Level II)</li>
+          <li>Silnik wykonawczy (broker API, FIX)</li>
+          <li>Logika strategii (momentum, mean reversion, arbitraż)</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Zarządzanie ryzykiem w czasie rzeczywistym</h2>
+        <p>Ograniczanie strat i kontrola ekspozycji:</p>
+        <ul>
+          <li>Stop-loss i take-profit</li>
+          <li>VaR intraday</li>
+          <li>Dynamiczne dopasowywanie rozmiaru pozycji (Kelly Criterion)</li>
+        </ul>
+      </article>
+
+      <article>
+        <h2>Backtesting i optymalizacja</h2>
+        <p>Przebieg testu historycznego:</p>
+        <ol>
+          <li>Przygotowanie danych (czyszczenie, resampling)</li>
+          <li>Symulacja transakcji na historycznych tickach</li>
+          <li>Analiza metryk: CAGR, Sharpe, Max Drawdown</li>
+        </ol>
+        <p>Uważaj na look-ahead bias i overfitting!</p>
+      </article>
+
+      <article>
+        <h2>Case Study: Strategia momentum na EUR/USD</h2>
+        <p>
+          Backtest Q1 2025: CAGR 8,5%, Sharpe 1,2, MaxDD –4,3%. Filtrujemy fale
+          boczne za pomocą filtra Kalman.
+        </p>
+      </article>
+    </main>
+
+    <footer>
+      <p>© 2025 FinModel+Algo • kontakt@finmodelalgo.pl</p>
+    </footer>
+  </body>
+</html>
