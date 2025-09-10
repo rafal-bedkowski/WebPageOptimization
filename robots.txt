@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://rafal-bedkowski.github.io/WebPageOptimization/sitemap.xml
